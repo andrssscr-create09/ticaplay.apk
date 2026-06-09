@@ -38,7 +38,7 @@ public class DashboardActivity extends AppCompatActivity {
         Button btnSupport = findViewById(R.id.btn_support);
         btnSupport.setOnClickListener(v -> {
             Intent wa = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://wa.me/50600000000?text=Hola+TicaPlay,+necesito+soporte"));
+                Uri.parse("https://wa.me/50688295951?text=Hola+TicaPlay,+necesito+soporte"));
             startActivity(wa);
         });
 
