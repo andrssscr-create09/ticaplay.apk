@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TicaPlay" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/color_bg</item>
+        <item name="android:statusBarColor">@color/color_bg</item>
+        <item name="android:navigationBarColor">@color/color_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/color_purple</item>
+        <item name="colorPrimaryVariant">@color/color_purple_mid</item>
+        <item name="colorOnPrimary">@color/color_white</item>
+    </style>
+</resources>

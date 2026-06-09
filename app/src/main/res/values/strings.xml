@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicaPlay</string>
+    <string name="login_title">TicaPlay</string>
+    <string name="login_subtitle">Entretenimiento · Costa Rica</string>
+    <string name="hint_username">Tu usuario</string>
+    <string name="hint_password">Tu contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_loading">Verificando…</string>
+    <string name="error_empty">Por favor ingresá tu usuario y contraseña.</string>
+    <string name="error_auth">Usuario o contraseña incorrectos. Revisá tus datos o escribinos al WhatsApp.</string>
+    <string name="support_text">¿Problemas para ingresar? Escribinos al WhatsApp</string>
+    <string name="demo_text">¿No tenés cuenta? Probá 3 horas gratis</string>
+</resources>

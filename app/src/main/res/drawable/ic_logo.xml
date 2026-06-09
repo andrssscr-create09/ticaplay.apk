@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Fondo redondeado morado materia oscura -->
+    <path
+        android:pathData="M15,0 L65,0 Q80,0 80,15 L80,65 Q80,80 65,80 L15,80 Q0,80 0,65 L0,15 Q0,0 15,0 Z"
+        android:fillColor="#3B0764"/>
+
+    <!-- T horizontal -->
+    <path
+        android:pathData="M14,18 L66,18 Q70,18 70,22 L70,27 Q70,31 66,31 L14,31 Q10,31 10,27 L10,22 Q10,18 14,18 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- T vertical -->
+    <path
+        android:pathData="M35,18 L45,18 Q49,18 49,22 L49,66 Q49,70 45,70 L35,70 Q31,70 31,66 L31,22 Q31,18 35,18 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Señal 1 — cerca -->
+    <path
+        android:pathData="M53,34 L58,34 Q60,34 60,36 L60,66 Q60,68 58,68 L53,68 Q51,68 51,66 L51,36 Q51,34 53,34 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.58"/>
+
+    <!-- Señal 2 — lejos -->
+    <path
+        android:pathData="M63,42 L67,42 Q69,42 69,44 L69,66 Q69,68 67,68 L63,68 Q61,68 61,66 L61,44 Q61,42 63,42 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.32"/>
+
+</vector>

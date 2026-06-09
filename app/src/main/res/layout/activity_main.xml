@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="36dp"
+        android:paddingTop="72dp"
+        android:paddingBottom="40dp">
+
+        <!-- Logo / Ícono -->
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/ic_logo"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="TicaPlay logo"/>
+
+        <!-- Nombre de la app -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TicaPlay"
+            android:textColor="@color/color_white"
+            android:textSize="36sp"
+            android:fontFamily="serif"
+            android:letterSpacing="-0.02"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Tagline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTRETENIMIENTO · COSTA RICA"
+            android:textColor="@color/color_text_dim"
+            android:textSize="11sp"
+            android:letterSpacing="0.15"
+            android:layout_marginBottom="52dp"/>
+
+        <!-- Campo usuario -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textColor="@color/color_text_dim"
+            android:textSize="12sp"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_input"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/color_white"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:singleLine="true"
+            android:hint="Tu usuario"
+            android:hintTextColor="@color/color_hint"
+            android:layout_marginBottom="20dp"
+            android:imeOptions="actionNext"/>
+
+        <!-- Campo contraseña -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:textColor="@color/color_text_dim"
+            android:textSize="12sp"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_input"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/color_white"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:hint="Tu contraseña"
+            android:hintTextColor="@color/color_hint"
+            android:layout_marginBottom="8dp"
+            android:imeOptions="actionDone"/>
+
+        <!-- Error -->
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF6B6B"
+            android:textSize="12sp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"/>
+
+        <!-- Botón ingresar -->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Ingresar"
+            android:textColor="@color/color_white"
+            android:textSize="16sp"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginBottom="20dp"
+            android:stateListAnimator="@null"/>
+
+        <!-- Progress bar -->
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/color_purple"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Soporte -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Problemas para ingresar? Escribinos al WhatsApp"
+            android:textColor="@color/color_purple_light"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Demo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿No tenés cuenta? Probá 3 horas gratis"
+            android:textColor="@color/color_text_dim"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
